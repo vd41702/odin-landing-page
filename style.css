@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 128px;
+    gap: 16px;
+}
+
+.header-logo {
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.header-links ul{
+    list-style: none;
+    display: flex;
+    gap: 16px;
+    font-size: 18px;
+}
+
+.header-links ul a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+.content-section {
+    display: flex;
+    padding: 100px 128px;
+    justify-content: space-between;
+}
+
+.item {
+    flex: 1 1 0;
+}
+
+.vertical {
+    display: flex;
+    flex-direction: column;
+}
+
+.cards {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-img {
+    height: 128px;
+    width: 128px;
+    border-radius: 15px;
+    border:2px solid #3882f6;
+}
+
+.card-text {
+    color: #6c6c6c;
+    text-align: center;
+}
+
+.quote {
+    color: antiquewhite;
+}
+
+.quote-credit {
+    color: antiquewhite;
+}
+
+.CTA-box {
+    color: antiquewhite;
+}
+
+.CTA-title {
+    color: antiquewhite;
+}
+
+.footer {
+    color: antiquewhite;
+}
+
+.color1 {
+    background-color: #1F2937;
+    color: white;
+}
+
+.color2 {
+    background-color: white;
+    color: black;
+}
+
+.color3 {
+    background-color: #f0efef;
+    color: black
+}
+
+button {
+    padding: 8px 16px;
+}
+
+
