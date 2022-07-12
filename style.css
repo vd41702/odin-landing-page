@@ -1,15 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 body {
     display: flex;
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+h1, p {
+    margin: 0;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 16px 128px;
+    align-items: center;
+    padding: 16px 10%;
     gap: 16px;
 }
 
@@ -32,8 +37,9 @@ body {
 
 .content-section {
     display: flex;
-    padding: 100px 128px;
+    padding: 50px 10%;
     justify-content: space-between;
+    gap: 100px;
 }
 
 .item {
@@ -43,6 +49,20 @@ body {
 .vertical {
     display: flex;
     flex-direction: column;
+    gap: 16px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    width: 100px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-weight: bold;
 }
 
 .cards {
@@ -55,6 +75,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 10px;
 }
 
 .card-img {
@@ -67,26 +88,59 @@ body {
 .card-text {
     color: #6c6c6c;
     text-align: center;
+    width: 128px;
 }
 
 .quote {
-    color: antiquewhite;
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
 }
 
 .quote-credit {
-    color: antiquewhite;
+    color: black;
+    align-self: flex-end;
 }
 
 .CTA-box {
-    color: antiquewhite;
+    display: flex;
+    background-color: #3882f6;
+    padding: 24px 75px;
+    border-radius: 10px;
+    margin: 0px 70px;
+    flex: 1;
+    justify-content: space-between;
 }
 
 .CTA-title {
-    color: antiquewhite;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.CTA-box p {
+    color: #e5e7eb;
+}
+
+.CTA-box .vertical {
+    gap: 8px;
+}
+
+.CTA-box .button {
+    border: white 2px solid;
+    height: min-content;
+    align-self: center;
 }
 
 .footer {
-    color: antiquewhite;
+    display: flex;
+    color: white;
+    background-color: #1F2937;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 0px;
+    font-size: 16px;
 }
 
 .color1 {
